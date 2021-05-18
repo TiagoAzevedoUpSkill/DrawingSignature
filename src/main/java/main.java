@@ -37,6 +37,10 @@ public class main {
                 .moveByOffset(-60, -70)// 3rd points (x2,y2)
                 .moveByOffset(150, 60) // 2nd points (x1,y1)
                 .moveByOffset(-60, -70)// 3rd points (x2,y2)
+                .moveByOffset(-50, 100) // 2nd points (x1,y1)
+                .moveByOffset(-60, 200)// 3rd points (x2,y2)
+                .moveByOffset(150, -50) // 2nd points (x1,y1)
+                .moveByOffset(-60, -100)// 3rd points (x2,y2)
 //                .doubleClick()
                 .build();
         drawAction.perform();
